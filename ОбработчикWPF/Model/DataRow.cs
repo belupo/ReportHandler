@@ -8,7 +8,7 @@ namespace ReportHandler.Model
 {
     public class DataRow : Entity
     {
-        public int Order { get; set; }
+        public virtual int Order { get; set; }
         public DataCell Klnt { get; set; }
         public DataCell Inn { get; set; }
         public DataCell Adr { get; set; }
